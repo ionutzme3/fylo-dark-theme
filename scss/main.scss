@@ -1,0 +1,28 @@
+@import "variables";
+@import "settings";
+@import "header";
+@import "hero";
+@import "services";
+@import "info";
+@import "testimonials";
+@import "contact";
+@import "footer";
+@import "responsive";
+
+body {
+    background: $main-background;
+    color: $white-color;
+    font-family: $raleway;
+    font-size: 62.5%;
+}
+
+p{
+    font-size: 1rem;
+}
+.container {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+

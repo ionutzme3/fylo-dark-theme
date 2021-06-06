@@ -1,0 +1,38 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  img {
+    width: 100%;
+  }
+  &__intro-text {
+    margin-top: 2em;
+    
+  }
+  &__heading {
+    text-align: center;
+    font-family: $raleway;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.4;
+    margin-bottom: 1em;
+  }
+  &__paragraph {
+      text-align: center;
+  }
+  &__button {
+    width: 90%;
+    padding: 0.8em;
+    border-radius: 100px;
+    margin: 2em 0 2em 0;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, $cyan, $blue);
+    color: $white-color;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+}

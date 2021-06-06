@@ -1,0 +1,56 @@
+@include media-md {
+    .hero {
+        &__intro-text {
+            width: 70%;
+            margin: 0 auto;
+
+            p {
+                width: 60%;
+                margin: 1em auto;
+            }
+            button {
+                width: 50%;
+                margin: 1em auto;
+            }
+        }
+    }
+    .services {
+        &__items {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1em;
+            padding: 5em 0;
+        }
+    }
+    .info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2em;
+        align-items: center;
+        justify-items: center;
+    }
+    .testimonials {
+        &__items {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2em;
+        }
+    }
+    .contact {
+        &__container {
+            width: 60%;
+            margin: 0 auto;
+        }
+    }
+    .footer {
+        &__items {
+            grid-template-columns: 2fr repeat(4, 1fr );
+        }
+        &__social-icons {
+           
+    
+            i {
+                padding: 0.5rem;
+                margin: 0 0.5em;
+            }
+        }
+    }
+}

@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.header__list .header__link {
+  color: white;
+  text-decoration: none;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.hero__intro-text {
+  margin-top: 2em;
+}
+
+.hero__heading {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.4;
+  margin-bottom: 1em;
+}
+
+.hero__paragraph {
+  text-align: center;
+}
+
+.hero__button {
+  width: 90%;
+  padding: 0.8em;
+  border-radius: 100px;
+  margin: 2em 0 2em 0;
+  border: none;
+  outline: none;
+  background: -webkit-gradient(linear, left top, right top, from(#65e2d9), to(#339ecc));
+  background: linear-gradient(to right, #65e2d9, #339ecc);
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.services__items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.services__item {
+  margin-bottom: 3em;
+}
+
+.services__icon {
+  margin-bottom: 2em;
+}
+
+.services__heading {
+  margin-bottom: 1em;
+}
+
+.services__text {
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.info {
+  font-family: "Raleway", sans-serif;
+}
+
+.info__image > img {
+  width: 100%;
+}
+
+.info__heading {
+  margin: 2em 0;
+}
+
+.info__paragraph {
+  margin-bottom: 1em;
+  line-height: 1.3;
+}
+
+.info__link {
+  text-decoration: none;
+  color: #65e2d9;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #65e2d9;
+}
+
+.testimonials__items {
+  margin-top: 8em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 2em;
+}
+
+.testimonials__item {
+  background: #202a3c;
+  padding: 1em;
+}
+
+.testimonials__text {
+  margin: 1em 0;
+  line-height: 1.3;
+  font-size: 1rem;
+}
+
+.testimonials__profiles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testimonials__profiles img {
+  border-radius: 50%;
+  width: 50px;
+  margin-right: 1em;
+}
+
+.testimonials__text-info h2 {
+  font-size: 1.2rem;
+}
+
+.contact__container {
+  position: relative;
+  bottom: -200px;
+  background: #1c2431;
+  padding: 5em 2em;
+  text-align: center;
+}
+
+.contact__heading {
+  font-size: 1.2rem;
+  margin-bottom: 1em;
+}
+
+.contact__text {
+  font-size: 1rem;
+  line-height: 1.3;
+  margin-bottom: 1em;
+}
+
+.contact__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact__input {
+  margin-bottom: 2em;
+  padding: 1em;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+}
+
+.contact button {
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  background: -webkit-gradient(linear, left top, right top, from(#65e2d9), to(#339ecc));
+  background: linear-gradient(to right, #65e2d9, #339ecc);
+  cursor: pointer;
+}
+
+.footer {
+  background: #0b1523;
+  padding-top: 250px;
+}
+
+.footer__wrapper {
+  padding: 1em 0;
+}
+
+.footer__items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 2em;
+}
+
+.footer__contact-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 2em 0;
+}
+
+.footer__contact-info img {
+  margin-right: 2em;
+}
+
+.footer__list {
+  list-style-type: none;
+}
+
+.footer__list-link {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  padding: 0.2em;
+}
+
+.footer__social-icons {
+  text-align: center;
+  margin: 1em 0;
+  font-size: 1rem;
+}
+
+.footer__social-icons i {
+  border-radius: 100%;
+  border: 1px solid white;
+  padding: 1rem;
+  margin: 0 1em;
+}
+
+@media screen and (min-width: 668px) {
+  .hero__intro-text {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .hero__intro-text p {
+    width: 60%;
+    margin: 1em auto;
+  }
+  .hero__intro-text button {
+    width: 50%;
+    margin: 1em auto;
+  }
+  .services__items {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    padding: 5em 0;
+  }
+  .info {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+  }
+  .testimonials__items {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+  }
+  .contact__container {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .footer__items {
+    -ms-grid-columns: 2fr (1fr)[4];
+        grid-template-columns: 2fr repeat(4, 1fr);
+  }
+  .footer__social-icons i {
+    padding: 0.5rem;
+    margin: 0 0.5em;
+  }
+}
+
+body {
+  background: #181f2a;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.container {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=main.css.map */

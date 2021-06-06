@@ -1,0 +1,44 @@
+.footer {
+    background: $footer-background;
+    padding-top: 250px;
+    &__wrapper {
+        padding: 1em 0;
+    }
+    &__items {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2em;
+    }
+    &__contact-info {
+        display: flex;
+        align-items: flex-start;
+        margin: 2em 0;
+
+        img {
+            margin-right: 2em;
+        }
+    }
+    &__list {
+        list-style-type: none;
+    }
+    &__list-link {
+        display: block;
+        text-decoration: none;
+        color: $white-color;
+        font-size: 1rem;
+        padding: 0.2em;
+    }
+    &__social-icons {
+        text-align: center;
+        margin: 1em 0;
+        font-size: 1rem;
+
+        i {
+            border-radius: 100%;
+            border: 1px solid white;
+            padding: 1rem;
+            margin: 0 1em;
+        }
+    }
+
+}
